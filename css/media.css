@@ -1,0 +1,132 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.menu_header ul {
+		display: none;
+		float: left;
+		position: absolute;
+		background-color: #3cb878;
+		width: 31%;
+		margin-left: -75px;
+		padding: 10px 5px;
+		z-index: 11;
+	}
+	.menu_header ul li {
+		display: block;
+	}
+	.main_mnu ul {
+		display: none;
+		position: absolute;
+		background-color: #eb9267;
+		width: 100%;
+		z-index: 11; 
+	}
+	.main_mnu ul li {
+		display: block;
+	}
+	.img_alter, .banner a {
+		display: none;
+		width: 100%;
+		z-index: 11;
+	}
+	.img_title {
+		position: absolute;
+		margin-left: 30px;
+	}
+	.banner a {
+		display: block;
+		border: medium none;
+	}
+	.sell_right .button {
+		margin: 10px auto;
+		float: none;
+		max-width: 350px;
+	}
+	.sell_descr {
+		text-align: center;
+	}
+	.rt_block {
+		position: relative;
+		display: block; 
+		margin: 0;
+		padding: 0;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.phone_call_number {
+	display: none;
+	background-color: #3cb878;
+	vertical-align: middle;
+	margin-top: 3px; 
+	padding: 5px;
+	width: 37%;
+    }
+    .phone_call_end, .skype_call_number, .mail_call_number {
+    display: none;
+    vertical-align: middle;
+    background-color: #f89a2b;
+    padding: 5px;
+
+    }	
+    .copyrayt {
+    	display: none;
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.phone_call_number  {
+		display: inline-block !important;
+	}
+	.phone_call_end, .skype_call_number, .mail_call_number {
+		display: inline-block !important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.menu_header ul {
+		display: inline-block !important;
+	}
+	.main_mnu ul {
+		display: block !important;
+	}
+	.img_alter {
+		display: inline-block !important;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
